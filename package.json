@@ -1,0 +1,23 @@
+{
+  "name": "sfdc-meta-compare",
+  "version": "1.0.0",
+  "description": "Smart Compare of Salesforce Object Metadata",
+  "main": "compare_object.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+
+  "author": "Victor Kasenda (https://github.com/victorkas)",
+  "license": "MIT",
+
+  "repository" : { 
+      "type":"git", 
+      "url":"https://github.com/victorkas/sfdc-meta-compare.git" },
+
+  "dependencies": {
+	  "xpath.js": ">= 1.0.6",
+	  "xmldom": ">= 0.1.19 ",
+	  "command-line-args": ">= 0.5.9",
+	  "glob": ">= 5.0.14"
+  }
+}
