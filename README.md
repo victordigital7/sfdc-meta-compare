@@ -24,6 +24,7 @@ Hint: Only elements defined in elementsToCompare[] will be compared.
 Requirements: nodejs and npm (https://nodejs.org/) 
 
 - git clone https://github.com/victorkas/sfdc-meta-compare.git
+- cd sfdc-meta-compare
 - npm install
   - The above command installs dependent modules
 
